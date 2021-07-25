@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.day-version {
+    background-color: white;
+    color: black;
+}
+.night-version {
+    background-color: gray;
+    color: white;
+}
+button {
+    background-color: white;
+}
+header {
+    
+    height: 52px;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 233px;
+    padding-right: 240px;
+    margin-bottom: 67px;
+}
+
+.header-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    border-color: #000000;
+}
+.page-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 103px;
+}
+
+.page-title{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 46px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.page-items {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.page-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+        
+    width: 498px;
+    height: 172px;
+
+    padding: 10px;
+    margin-bottom: 24px;
+    
+    border: 1px solid rgb(48, 46, 46);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.page-item-content {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-item-image {
+    width: 100px;
+    height: 100px;  
+}
+
+.page-item-text {
+    display: flex;
+    flex-direction: column;
+    margin-left:10.5px;
+}
+
+.page-item-title {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+span {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.page-item-numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 16.41px; 
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.page-item-author {
+    display: flex;
+    flex-direction: row;
+    width: 171px;
+    white-space: pre;
+
+}
+.vector{
+    object-fit: contain;
+    font-family: 'Roboto', sans-serif;
+}
+.page-item-views{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    line-height: 16px;
+    white-space: pre;
+}
+.page-item-numbers-button {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    font-size: 14px;
+    line-height: 16px;
+    width: 123px;
+    height: 31px;
+    font-family: 'Roboto', sans-serif;
+}
+

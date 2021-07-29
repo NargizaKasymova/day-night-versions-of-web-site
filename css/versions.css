@@ -8,10 +8,18 @@
     background-color: gray;
     color: white;
 }
-
 button {
     background-color: white;
 }
+.button-day {
+    background-color: white;
+    color: black;
+}
+.button-night {
+    background-color:#676565;
+    color: white;
+}
+
 header {
     height: 52px;
     left: 0px;
@@ -55,6 +63,9 @@ header {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+}
+.item-night {
+    background-color: #2B2626;
 }
 .page-item {
     display: flex;
@@ -116,9 +127,9 @@ span {
     white-space: pre;
 
 }
-.vector{
+.vector {
     object-fit: contain;
-    font-family: 'Roboto', sans-serif;
+    
 }
 .page-item-views{
     display: flex;
@@ -126,7 +137,10 @@ span {
     font-size: 14px;
     line-height: 16px;
     white-space: pre;
+    font-family: 'Roboto', sans-serif;
+    
 }
+
 .page-item-numbers-button {
     border: 1px solid #000000;
     box-sizing: border-box;
